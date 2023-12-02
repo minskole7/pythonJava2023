@@ -64,7 +64,7 @@ public class Locators {
 			System.out.println("Test case fail");
 		}
 		
-		
+
 		// name 
 		
 		boolean avail4 = driver.findElement(By.name("first_name")).isDisplayed();
@@ -87,6 +87,8 @@ public class Locators {
 		}
 		
 		// Link Text 
+		
+		
 		
 		
 		// Partial lInked
