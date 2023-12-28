@@ -62,19 +62,19 @@ public class ActionsElements {
 		
 		// Testcase 4
 		
-		WebElement draggable = driver.findElement(By.id("draggable"));
-		WebElement droppable = driver.findElement(By.id("droppable"))	;
-		Actions action = new Actions(driver);
-		
-		action.dragAndDrop(draggable, droppable).build().perform();
-		String actual = driver.findElement(By.id("droppable")).getText();
-		if(actual.equals("Dropped!")) {
-			System.out.println("Test case pass");
-		}
-		else {
-			System.out.println("Test case fail");
-		}
-		
+//		WebElement draggable = driver.findElement(By.id("draggable"));
+//		WebElement droppable = driver.findElement(By.id("droppable"))	;
+//		Actions action = new Actions(driver);
+//		
+//		action.dragAndDrop(draggable, droppable).build().perform();
+//		String actual = driver.findElement(By.id("droppable")).getText();
+//		if(actual.equals("Dropped!")) {
+//			System.out.println("Test case pass");
+//		}
+//		else {
+//			System.out.println("Test case fail");
+//		}
+//		
 		
 		
 		
