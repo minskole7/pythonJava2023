@@ -31,11 +31,10 @@ public class Calender {
 					break;
 				}
 				driver.findElement(By.cssSelector(".next")).click();
-				
-			
+					
 			}
 			
-			
+		
 			List<WebElement> days = driver.findElements(By.cssSelector(".day"));
 			for(int i = 0 ; i < days.size() ; i++) {
 				if(days.get(i).getText().equals(date)) {
